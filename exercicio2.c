@@ -17,7 +17,7 @@
         }
         else if(nota>=5 && nota<7){
             recuperacao++;
-            printf("Recuperação: %s", nome);
+            printf("Recuperação: %s\n", nome);
         }
         else{
             reprovados++;
