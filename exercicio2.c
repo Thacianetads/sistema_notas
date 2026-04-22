@@ -13,7 +13,7 @@
         scanf("%f", &nota);
         if(nota >=7){
             aprovados++;
-            printf("Aprovado %s", nome);
+            printf("Aprovado %s\n", nome);
         }
         else if(nota>=5 && nota<7){
             recuperacao++;
@@ -21,7 +21,7 @@
         }
         else{
             reprovados++;
-            printf("Reprovado: %s", nome);
+            printf("Reprovado: %s\n", nome);
         }
     }
     printf("Aprovados: %i\n", aprovados);
